@@ -2,289 +2,457 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0,
+maximum-scale=1.0, user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>EEsha Dresses Website design</title>
+  <title>Sanjeevani Hasabnis Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
+<div class="site-main-wrapper">
+  <button onclick="myFunction()" class="hamberger">
+  <img src="./img/menu.png" alt="">
+  </button>
 
-  <div class="header">
-  <div class="container">
-    <div class="navbar">
-      <div class = "logo">
-        <img src="./images/logo.svg"  width = 250px alt="">
-      </div>
-      <nav>
-        <ul id = "menuItems">
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Products</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Contact</li>
-          <li><a href="#"></a>Account</li>
-        </ul>
-      </nav>
-      <svg class = "cart-svg" xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="0 -31 512.00026 512" width="512pt"><path id="cart-svg" d="m164.960938 300.003906h.023437c.019531 0 .039063-.003906.058594-.003906h271.957031c6.695312 0 12.582031-4.441406 14.421875-10.878906l60-210c1.292969-4.527344.386719-9.394532-2.445313-13.152344-2.835937-3.757812-7.269531-5.96875-11.976562-5.96875h-366.632812l-10.722657-48.253906c-1.527343-6.863282-7.613281-11.746094-14.644531-11.746094h-90c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h77.96875c1.898438 8.550781 51.3125 230.917969 54.15625 243.710938-15.941406 6.929687-27.125 22.824218-27.125 41.289062 0 24.8125 20.1875 45 45 45h272c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-272c-8.269531 0-15-6.730469-15-15 0-8.257812 6.707031-14.976562 14.960938-14.996094zm312.152343-210.003906-51.429687 180h-248.652344l-40-180zm0 0"></path><path id = "cart-svg" d="m150 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"></path><path id="cart-svg" d="m362 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"></path></svg>
-      <img src="./images/menu.png" class ="menu-icon"
-      onclick = "menuToggle()">
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img src="./images/dress_PNG150.png">
-      </div>
-      <div class="col-2-text">
-        <h1>Welcome to <span>EEsha Dresses,</span> <br>the favorite shopping destination for online shoppers</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dolore quidem eaque unde mollitia quibusdam. sed, iure debitis incidunt, blanditiis voluptas.</p>
-        <a href="" class = "btn">Explore Now</a>
-      </div>
-    </div>
-  </div>
-  </div>
-
-<!--featured category--->
-<div class="category">
-  <div class="small-container">
-    <div class="row">
-      <div class="col-3"><img src="./images/img1.jpg" alt=""></div>
-      <div class="col-3"><img src="./images/img8.jpg" alt=""></div>
-      <div class="col-3"><img src="./images/img17.jpg" alt=""></div>
-    </div>
-  </div>
-</div>
-
-<!--featured product--->
-
-<div class="small-container1">
-  <h2 class ="title">Featured Products</h2>
-  <div class="row">
-    <div class="col-4">
-      <img src="./images/img13.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img10.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img2.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img9.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-  </div>
-
-  <h2 class ="title">Latest Products</h2>
-  <div class="row">
-    <div class="col-4">
-      <img src="./images/img17.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img16.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img15.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/img14.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-4">
-      <img src="./images/01.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/02.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/03.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-    <div class="col-4">
-      <img src="./images/04.jpg" alt="">
-      <h4>Product Name 1</h4>
-      <div class="rating">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </div>
-      <p>$50.00</p>
-    </div>
-  </div>
-</div>
-
-<!--offer----------------------->
-
-<div class="offer">
-  <div class="small-container1">
-    <div class="row-offer">
-      <div class="col-2">
-        <img src="./images/img4.jpg" class = "offer-img">
-      </div>
-      <div class="col-2-offer">
-        <p>Elegant Drapes at Easy Prices Check Now!</p>
-        <h1>Exclusive Wedding Attire !! Available Now ! </h1>
-        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique error quam rerum quibusdam, pariatur saepe molestias, mollitia, reiciendis dolores eius fugit.</small> <br>
-        <a href="" class = "btn">Order Now</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!---Footer---------------------------------------->
-
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col-1">
-        <h3>For Knowledge</h3>
-        <ul>
-          <li>FAQs</li>
-          <li>Blog Post</li>
-          <li>Contact Us</li>
-        </ul>
-      <a href="#"><img src="./images/white-logo-1.png">Download Our App</a>
-      </div>
-      <div class="footer-col-2">
-          <h3>Useful Links</h3>
-          <ul>
-            <li>Coupons</li>
-            <li>Cancellation Policy</li>
-            <li>Terms and Conditions</li>
-            <li>Blog Post</li>
-          </ul>
+  <nav class="mobile-nav">
+    <button class="close"><img src="./img/close.png" alt=""></button>
+    <ul class ="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#services">My Skills</a></li>
+      <li><a href="#mywork">My work</a></li>
+      <li><a href="#contact">My Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class="container">
+  <!--nav section-->
+    <nav id="main-nav" class="flex items-center justify-between">
+      <div class="left flex items-center">
+        <div class="brand">
+        <img src="./img/logo.png">
         </div>
-      <div class="footer-col-3">
-          <h3>Follow Us</h3>
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>YouTube</li>
-          </ul>
+        <div>
+          <a href="#">Home</a>
+          <a href="#about">About me</a>
+          <a href="#services">My Skills</a>
+          <a href="#mywork">My work</a>
+          <a href="#contact">My Contact</a>
         </div>
-    </div>
-    <hr>
-    <p class = "copyright">CopyRight 2021 - Sanjeevani Hasabnis</p>
-  </div>
-</div>
+      </div>
+    </nav>
 
-<!---JS for Toggle menu--------------->
+    <!--Hero section-->
+    <div class="hero flex">
+      <div class="small-logo"><img src="./img/logo.png" alt=""></div>
+    <div class="my-img">
+       <img src="./img/My_img.png">
+    </div>
+    <div class="text">
+      <h2>Sanjeevani Hasabnis</h2>
+      <h1> A Creative UI/UX Designer & Developer</h1>
+      <p>Creative engagement is my nature. So I keep myself busy into the things that gives outlet to my creative fluids. It could be any out of the box idea to solve design problem, an UI or an icon. This approach led me to hone my skills as a front end developer. so that I could translate design
+      concepts and ideas into reality using front end technology.</p>
+      <div>
+        <button class="btn"><a href="Sanjeevani_Hasabnis_Resume.pdf" download="Sanjeevani_Hasabnis_Resume">Download CV</button></a>
+      </div>
+    </div>
+    </div>
+    </div>
+  </header>
+
+  <!--About me-->
+<section id="about" class="about">
+  <div class="container flex items-center mob-inner-wrap">
+    <div class="flex-1">
+      <img src="./img/My_img_2.jpg">
+    </div>
+
+    <div class="flex-1">
+      <h1>About <span>Me</span></h1>
+      <!-- <h3>Hey! my name is Sanjeevani Hasabnis</h3> -->
+      <p>I specialize in UI/UX design, Responsive web design, Visual design and developement. I have completed a Diploma in Graphic Design and carrying an experience more than eight years and 6 months. <br>I combine userflows, wireframing, prototyping, visual design and development using frontend technologies to transform problems into engaging solutions.
+      </p>
+	  <img class="skill_1" src="./img/Skills.png" alt="">
+	  <img class="skill_2" src="./img/Skills_small.png" alt="">
+
+    </div>
+  </div>
+</section>
+
+
+<!--services-->
+<section id="services" class = "services">
+  <div class="container">
+    <h1 class="section-heading">My <span>Skills</span></h1>
+
+    <div class="card-wrapper">
+      <div class="card">
+          <span class="dot">
+          <img src="./icons/ux-interface.svg" alt=""></span>
+          <h2>UX Design</h2>
+          <p>I have a deep sence of empathy, which fuels my passion to craft meaningful experiences for people. Able to Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.</p>
+        </div>
+
+        <div class="card">
+          <span class="dot">
+          <img src="./icons/wireframe.svg" alt=""></span>
+          <h2>Wireframes</h2>
+          <p>Developed simple wireframes which is clearly described the usability and functionality using various wireframing tools like Axure 8, Figma, Invision, Adobe XD and  Balsamic for the application.</p>
+        </div>
+
+      <div class="card">
+        <span class="dot">
+        <img src="./icons/ui.svg" alt=""></span>
+        <h2>Responsive UI Design</h2>
+        <p>I design a sleek and innovative UI and able to build and develope the responsive UI for multiple devices. Also can work on using Bootstrap.</p>
+      </div>
+
+      <div class="card">
+        <span class="dot">
+        <img src="./icons/visual-design.svg" alt=""></span>
+        <h2>Visual Design</h2>
+        <p>Visual design skills with sensitivity to user-system interaction with the latest UI trends, techniques and technologies. </p>
+      </div>
+
+      <div class="card">
+        <span class="dot">
+        <img src="./icons/customize.svg" alt=""></span>
+        <h2>Customize Iconography</h2>
+        <p> The basics of icon design including consistency, legibility and clarity. As a designer this is a responsibility to make sure all the customized icons are of the highest possible quality with asthetical unity and recognizability.</p>
+      </div>
+
+      <div class="card">
+        <span class="dot">
+        <img src="./icons/web-development.svg" alt=""></span>
+        <h2>UI Development</h2>
+        <p>A strong knowledge with hand-coded HTML5 and css3. Understanding of modern JavaScript. Thorough understanding of React.js and its core principles. A fresher in building and develope reusable user interface components using React JS.</p>
+      </div>
+
+      <!-- <div class="card">
+        <span class="dot">
+        <img src="./icons/BS.svg" alt=""></span>
+        <h2>Bootstrap</h2>
+        <p>Worked on responsiveness of the application and explored the fixed width and fluid layouts using Bootstrap.</p>
+      </div>
+
+      <div class="card">
+        <span class="dot">
+        <img src="./icons/react.svg" alt=""></span>
+        <h2>React JS</h2>
+        <p>Thorough understanding of React.js and its core principles. Able to build and develope reusable user interface components.</p>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
+<!-- My work -->
+
+<section id="mywork" class="work">
+  <div class="container">
+    <h1 class="section-heading">My <span>Work</span></h1>
+    <p>My work encompasses different skills associated with usability including UX design, Low and high fidelity wireframes, Interactive prototypes, creating Visual design mock-ups. Independently problem-solving and leadership are my sub-skills. Ability to make a creative design and also can translate creative design concepts and ideas into reality using front end technology.</p>
+    <!-- <h4>UI/UX Design & Development</h4> -->
+    <!-- <div class="portfolio-content">
+      <ul class="portfolio-filter">
+        <li class="active" data-value="all">All</li>
+        <li data-value="User Interface Design">User Interface Design</li>
+        <li data-value="UI Development">UI Development</li>
+        <li data-value="React-Application">React-Application</li>
+      </ul>
+    </div> -->
+
+
+  <div class="card-wrapper">
+        <div><h5>UX Case-study</h5>
+          <div class="card">
+            <div class="overlay">
+            <button id="mybtn" onclick="myFunction_ux()">Click to open</button>
+            </div>
+            <img src="./mywork/11.png" alt="">
+      	  </div>
+            <!--popup-->
+            <!-- <div id="myModal11a" class="modal"> -->
+          <!--popup content-->
+            <!-- <div class="popup-content">
+              <span onclick="document.getElementById('myModal11a').style.display='none'" class="close-1">&times;</span>
+              <img class="responsive_img" src="./mywork/11_big.jpg" alt="">
+            </div> -->
+          <!-- </div> -->
+          </div>
+
+        <div><h5>UI Design</h5>
+          <div class="card">
+            <div class="overlay">
+
+              <button id="mybtn" onclick="document.getElementById('myModal9').style.display='block'">Click to open</button>
+            </div>
+            <img src="./mywork/13.png" alt="">
+          </div>
+            <!--popup-->
+            <div id="myModal9" class="modal">
+          <!--popup content-->
+            <div class="popup-content">
+              <span onclick="document.getElementById('myModal9').style.display='none'" class="close-1">&times;</span>
+              <img class="responsive_img" src="./mywork/13_big.png">
+            </div>
+          </div>
+          </div>
+
+
+          <div><h5>UI Design</h5>
+            <div class="card">
+              <div class="overlay">
+
+              <button id="mybtn" onclick="document.getElementById('myModal1').style.display='block'">Click to open</button>
+              </div>
+              <img src="./mywork/01.png" alt="">
+            </div>
+              <!--popup-->
+              <div id="myModal1" class="modal">
+            <!--popup content-->
+              <div class="popup-content">
+                <span onclick="document.getElementById('myModal1').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/01_big.png" alt="">
+              </div>
+            </div>
+            </div>
+
+        	<div><h5>Food Mobile App</h5>
+          <div class="card">
+            <div class="overlay">
+            <button id="mybtn" onclick="document.getElementById('myModal3').style.display='block'">Click to open</button>
+            </div>
+            <img src="./mywork/03.png" alt="">
+      	  </div>
+            <!--popup-->
+            <div id="myModal3" class="modal">
+          <!--popup content-->
+            <div class="popup-content">
+              <span onclick="document.getElementById('myModal3').style.display='none'" class="close-1">&times;</span>
+              <img class="responsive_img" src="./mywork/03_big.png" alt="">
+            </div>
+          </div>
+          </div>
+
+        	<div><h5>UI Design</h5>
+            <div class="card">
+              <div class="overlay">
+
+              <button id="mybtn" onclick="document.getElementById('myModal4').style.display='block'">Click to open</button>
+              </div>
+              <img src="./mywork/04.png" alt="">
+        	  </div>
+              <!--popup-->
+              <div id="myModal4" class="modal">
+            <!--popup content-->
+              <div class="popup-content">
+                <span onclick="document.getElementById('myModal4').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/04_big.png" alt="">
+              </div>
+            </div>
+            </div>
+
+
+        	<div><h5>UI Design</h5>
+            <div class="card">
+              <div class="overlay">
+
+                <button id="mybtn" onclick="document.getElementById('myModal5').style.display='block'">Click to open</button>
+              </div>
+              <img src="./mywork/05.png" alt="">
+        	  </div>
+              <!--popup-->
+              <div id="myModal5" class="modal">
+            <!--popup content-->
+              <div class="popup-content">
+                <span onclick="document.getElementById('myModal5').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/05_big.png" alt="">
+              </div>
+            </div>
+            </div>
+
+
+
+        	<div><h5> UI Tablet View</h5>
+            <div class="card">
+              <div class="overlay">
+
+              <button id="mybtn" onclick="document.getElementById('myModal6').style.display='block'">Click to open</button>
+              </div>
+              <img src="./mywork/06.png" alt="">
+        	  </div>
+              <!--popup-->
+              <div id="myModal6" class="modal">
+            <!--popup content-->
+              <div class="popup-content">
+                <span onclick="document.getElementById('myModal6').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/06_big.jpg" alt="">
+              </div>
+            </div>
+            </div>
+
+
+        	<div><h5>UI Design</h5>
+            <div class="card">
+              <div class="overlay">
+
+              <button id="mybtn" onclick="document.getElementById('myModal12').style.display='block'">Click to open</button>
+              </div>
+              <img src="./mywork/12.png" alt="">
+        	  </div>
+              <!--popup-->
+              <div id="myModal12" class="modal">
+            <!--popup content-->
+              <div class="popup-content">
+                <span onclick="document.getElementById('myModal12').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/12_big.png" alt="">
+              </div>
+            </div>
+            </div>
+
+
+            <div><h5>UI Design</h5>
+              <div class="card">
+                <div class="overlay">
+
+                <button id="mybtn" onclick="document.getElementById('myModal17').style.display='block'">Click to open</button>
+                </div>
+                <img src="./mywork/17.png" alt="">
+          	  </div>
+                <!--popup-->
+                <div id="myModal17" class="modal">
+              <!--popup content-->
+                <div class="popup-content">
+                  <span onclick="document.getElementById('myModal17').style.display='none'" class="close-1">&times;</span>
+                  <img class="responsive_img" src="./mywork/17_big.png" alt="">
+                </div>
+              </div>
+              </div>
+
+          <div><h5>Bootstrap</h5>
+            <div class="card">
+              <div class="overlay">
+
+                <button id="mybtn" onclick="myFunction1()">Click to open</button>
+              </div>
+              <img src="./mywork/16.png" alt="">
+            </div>
+              <!--popup-->
+              <!-- <div id="myModal15" class="modal"> -->
+            <!--popup content-->
+              <!-- <div class="popup-content">
+                <span onclick="document.getElementById('myModal15').style.display='none'" class="close-1">&times;</span>
+                <img class="responsive_img" src="./mywork/15_big.png" alt="">
+              </div> -->
+            <!-- </div> -->
+            </div>
+
+            <div><h5>Bootstrap</h5>
+              <div class="card">
+                <div class="overlay">
+
+                <button id="mybtn" onclick="myFunction01()">Click to open</div>
+                <img src="./mywork/14.png" alt="">
+              </div>
+                <!--popup-->
+                <!-- <div id="myModal14" class="modal"> -->
+              <!--popup content-->
+                <!-- <div class="popup-content">
+                  <span onclick="document.getElementById('myModal14').style.display='none'" class="close-1">&times;</span>
+                  <img class="responsive_img" src="./mywork/14_big.png" alt="">
+                </div> -->
+              <!-- </div> -->
+              </div>
+
+              <div><h5>UI Developement</h5>
+                <div class="card">
+                  <div class="overlay">
+                  <button id="mybtn" onclick="myFunction2()">Click to open</button>
+                  </div>
+                  <img src="./mywork/10.png" alt="">
+                </div>
+                  <!--popup-->
+                  <!-- <div id="myModal10" class="modal"> -->
+                <!--popup content-->
+                  <!-- <div class="popup-content">
+                    <span onclick="document.getElementById('myModal10').style.display='none'" class="close-1">&times;</span>
+                    <img src="./mywork/10_big.png" alt="">
+                  </div> -->
+                <!-- </div> -->
+                <!-- https://hasabnis.github.io/Responsive_sample/ -->
+                </div>
+
+
+</div>
+</section>
+
+<section id = "contact" class="contact">
+  <div class="container">
+    <div>
+      <h1 class="section-heading">My <span>Contact</span></h1>
+      <div class="contact-wrapper">
+        <span class="patch flex">
+          <div class="add">
+            <span><img src="./icons/home.svg" alt=""></span>
+            <span>Pune - Maharashtra, India.</span>
+          </div>
+          <div class="phone">
+            <span><img src="./icons/phone-call.svg" alt=""></span>
+            <span>(+91)9960611836</span>
+          </div>
+          <div class="email">
+            <span><img src="./icons/email.svg" alt=""></span>
+            <span>sanjeevanihasabnis@gmail.com</span>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<footer class="footer_1">Copyright 2021 Sanjeevani Hasabnis. All Rights Reserved.</footer>
+
+
+<script src="./js/app.js"></script>
 <script>
-  var menuItems = document.getElementById('menuItems');
-  menuItems.style.maxHeight = "0px";
-
-  function menuToggle(){
-  if (menuItems.style.maxHeight == "0px")
-  {
-    menuItems.style.maxHeight = "200px";
-  }
-  else {
-    menuItems.style.maxHeight = "0px";
-  }
-  }
+function myFunction01() {
+window.open("https://hasabnis.github.io/WS3/.");
+}
 </script>
+
+<script>
+function myFunction1() {
+window.open("https://hasabnis.github.io/WorkjSamples/");
+}
+</script>
+
+
+<script>
+function myFunction2() {
+window.open("https://hasabnis.github.io/Responsive_sample/");
+}
+</script>
+
+<script>
+function myFunction17() {
+window.open("https://hasabnis.github.io/Dashboard/");
+}
+</script>
+
+<script>
+function myFunction_ux() {
+window.open("https://sanjeevanihasabnis2.wixsite.com/website");
+}
+</script>
+
+
+
 </body>
 </html>
